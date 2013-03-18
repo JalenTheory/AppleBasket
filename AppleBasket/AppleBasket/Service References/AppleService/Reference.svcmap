@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5fe2b7e4-dd35-4715-ba7b-c1188a09b270" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://applebasket2.azurewebsites.net/AppleService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AppleService.xsd" MetadataType="Schema" ID="c4399c30-d9b3-43f0-8ed5-c43ccb016a7e" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AppleService.wsdl" MetadataType="Wsdl" ID="176db7b8-f849-4850-b8f4-f33288b623ce" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?wsdl" />
+    <MetadataFile FileName="AppleService1.xsd" MetadataType="Schema" ID="6f665aeb-dbae-40d1-8511-1301c3e64c65" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AppleService2.xsd" MetadataType="Schema" ID="19b141ca-ddda-4554-8387-de3d1c6e3fe9" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AppleService3.xsd" MetadataType="Schema" ID="662ec512-88c6-4a05-a5f6-b4f2b87cdd67" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AppleService.disco" MetadataType="Disco" ID="91c504e6-a03a-473a-9e12-183bbb1daec5" SourceId="1" SourceUrl="http://applebasket2.azurewebsites.net/AppleService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AppleService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AppleService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://applebasket2.azurewebsites.net/AppleService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Microsoft.WindowsAzure.StorageClient" />
+  <xs:complexType name="Apple">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.WindowsAzure.StorageClient" base="q1:TableServiceEntity">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="AppleCount" type="xs:int" />
+          <xs:element minOccurs="0" name="Applecount" type="xs:int" />
+          <xs:element minOccurs="0" name="Latitude" type="xs:double" />
+          <xs:element minOccurs="0" name="Longitude" type="xs:double" />
+          <xs:element minOccurs="0" name="Reserved" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Apple" nillable="true" type="tns:Apple" />
+  <xs:complexType name="ArrayOfApple">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Apple" nillable="true" type="tns:Apple" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfApple" nillable="true" type="tns:ArrayOfApple" />
+</xs:schema>
